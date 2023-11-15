@@ -1,0 +1,14 @@
+# n=int(input())
+# for i in range(10,100):
+#     a=i//10
+#     b=i%10
+#     if a%n==0 and b%n==0:
+#         if (a**2)+(b**2)<=99 and (a**2)+(b**2)>=10:
+#             print((a**2)+(b**2))
+n=int(input())
+for elem in range(10,16):
+    first=elem//10
+    second=elem%10
+    x=first**2+second**2
+    if x%n==0:
+        print(elem)
